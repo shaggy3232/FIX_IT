@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+    <TextView
+        android:id="@+id/LoginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserProfile"/>\
+
+    <TextView
+        android:id="@+id/UserUsername"
+        android:layout_width="117dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="187dp"
+        android:autoSizeTextType="uniform"
+        android:text="Admin"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/SearchTime"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="152dp"
+        android:autoSizeTextType="uniform"
+        android:text="Search By Time"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/SearchRate"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="92dp"
+        android:autoSizeTextType="uniform"
+        android:text="Search By Rate"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/SearchType"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="32dp"
+        android:autoSizeTextType="uniform"
+        android:text="Search By Type"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/RateProvider"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="215dp"
+        android:autoSizeTextType="uniform"
+        android:text="Rate Provider"
+        android:textAlignment="center" />
+
+
+
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/download2" />
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="137dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="18dp"
+        android:autoSizeTextType="uniform"
+        android:text="Edit Service" />
+
+    <TextView
+        android:layout_width="136dp"
+        android:layout_height="52dp"
+
+        android:layout_alignTop="@+id/EditService"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:autoSizeTextType="uniform"
+        android:text="Service Name:" />
+
+    <EditText
+        android:id="@+id/EditService"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="77dp" />
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="46dp"
+
+        android:layout_alignTop="@+id/EditService"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="60dp"
+        android:autoSizeTextType="uniform"
+        android:text="Service Rate:" />
+
+    <EditText
+        android:id="@+id/EditRate"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="135dp" />
+
+    <Button
+        android:id="@+id/Done"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="207dp"
+        android:autoSizeTextType="uniform"
+        android:text="Done" />
+
+</RelativeLayout>

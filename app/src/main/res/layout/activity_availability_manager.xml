@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AvailabilityManager">
+
+
+    <TextView
+        android:id="@+id/Sunday"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="26dp"
+        android:autoSizeTextType="uniform"
+        android:text="Sunday" />
+
+    <TextView
+        android:id="@+id/Monday"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Sunday"
+        android:layout_marginTop="79dp"
+        android:autoSizeTextType="uniform"
+        android:text="Monday" />
+
+    <TextView
+        android:id="@+id/Tuesday"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Sunday"
+        android:layout_marginTop="136dp"
+        android:autoSizeTextType="uniform"
+        android:text="Tuesday" />
+
+    <TextView
+        android:id="@+id/Wednesday"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Sunday"
+        android:layout_marginTop="198dp"
+        android:autoSizeTextType="uniform"
+        android:text="Wednesday" />
+
+    <TextView
+        android:id="@+id/Thursday"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Sunday"
+        android:layout_marginBottom="217dp"
+        android:autoSizeTextType="uniform"
+        android:text="Thursday" />
+
+    <TextView
+        android:id="@+id/Friday"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Sunday"
+        android:layout_marginBottom="162dp"
+        android:autoSizeTextType="uniform"
+        android:text="Friday" />
+
+    <TextView
+        android:id="@+id/Saturday"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Sunday"
+        android:layout_marginBottom="108dp"
+        android:autoSizeTextType="uniform"
+        android:text="Saturday" />
+
+    <TextView
+        android:id="@+id/SundayStartTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/Sunday"
+        android:layout_centerHorizontal="true"
+        android:autoSizeTextType="uniform"
+        android:text="StartTime"
+        android:onClick="SundayStart"/>
+
+    <TextView
+        android:id="@+id/MondayStartTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/Monday"
+        android:layout_centerHorizontal="true"
+        android:autoSizeTextType="uniform"
+        android:text="StartTime" />
+
+    <TextView
+        android:id="@+id/TuesdayStartTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/Tuesday"
+        android:layout_centerHorizontal="true"
+        android:autoSizeTextType="uniform"
+        android:text="StartTime" />
+
+    <TextView
+        android:id="@+id/WednesdayStartTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/Wednesday"
+        android:layout_centerHorizontal="true"
+        android:autoSizeTextType="uniform"
+        android:text="StartTime" />
+
+    <TextView
+        android:id="@+id/ThursdayStartTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/Thursday"
+        android:layout_centerHorizontal="true"
+        android:autoSizeTextType="uniform"
+        android:text="StartTime" />
+
+    <TextView
+        android:id="@+id/FridayStartTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/Friday"
+        android:layout_centerHorizontal="true"
+        android:autoSizeTextType="uniform"
+        android:text="StartTime" />
+
+    <TextView
+        android:id="@+id/SaturdayStartTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/Saturday"
+        android:layout_centerHorizontal="true"
+        android:autoSizeTextType="uniform"
+        android:text="StartTime" />
+
+    <TextView
+        android:id="@+id/SundayEndTIme"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/MondayEndTime"
+        android:layout_alignTop="@+id/Sunday"
+        android:autoSizeTextType="uniform"
+        android:text="EndTime" />
+
+    <TextView
+        android:id="@+id/MondayEndTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignBaseline="@+id/Monday"
+        android:layout_alignStart="@+id/TuesdayEndTime"
+        android:autoSizeTextType="uniform"
+        android:text="EndTime" />
+
+    <TextView
+        android:id="@+id/TuesdayEndTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/WednesdayEndTime"
+        android:layout_alignTop="@+id/Tuesday"
+        android:autoSizeTextType="uniform"
+        android:text="EndTime" />
+
+    <TextView
+        android:id="@+id/WednesdayEndTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/ThursdayEndTime"
+        android:layout_alignTop="@+id/Wednesday"
+        android:autoSizeTextType="uniform"
+        android:text="Endtime" />
+
+    <TextView
+        android:id="@+id/ThursdayEndTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/FridayEndTime"
+        android:layout_alignTop="@+id/Thursday"
+        android:autoSizeTextType="uniform"
+        android:text="EndTime" />
+
+    <TextView
+        android:id="@+id/FridayEndTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/SaturdayEndTime"
+        android:layout_alignTop="@+id/Friday"
+        android:autoSizeTextType="uniform"
+        android:text="Endtime" />
+
+    <TextView
+        android:id="@+id/SaturdayEndTime"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Saturday"
+        android:layout_marginEnd="25dp"
+        android:autoSizeTextType="uniform"
+        android:text="Endtime" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:text="Set" />
+
+</RelativeLayout>
+

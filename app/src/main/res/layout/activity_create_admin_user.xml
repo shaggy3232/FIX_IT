@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAdminUser">
+
+    <TextView
+        android:id="@+id/Instructions"
+        android:layout_width="368dp"
+        android:layout_height="59dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-60dp"
+        android:autoSizeTextType="uniform"
+        android:text="Please provide the following information to create an Admin Account."
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/FirstName"
+        android:layout_width="120dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="65dp"
+        android:autoSizeTextType="uniform"
+        android:text="First Name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/LastName"
+        android:layout_width="120dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="125dp"
+        android:autoSizeTextType="uniform"
+        android:text="Last Name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="120dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="185dp"
+        android:autoSizeTextType="uniform"
+        android:text="Username"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="120dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="245dp"
+        android:autoSizeTextType="uniform"
+        android:text="Password"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="120dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="305dp"
+        android:autoSizeTextType="uniform"
+        android:text="Email Address"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/FirstNameInput"
+        android:layout_width="243dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="58dp"
+        android:hint="Enter First Name"
+        android:text=""
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/LastNameInput"
+        android:layout_width="243dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="118dp"
+        android:hint="Enter Last Name"
+        android:text=""
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/UsernameInput"
+        android:layout_width="243dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="178dp"
+        android:hint="Enter Your Username"
+        android:text=""
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/PasswordInput"
+        android:layout_width="243dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="238dp"
+        android:hint="Enter Your Password"
+        android:text=""
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/EmailInput"
+        android:layout_width="243dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="298dp"
+        android:hint="Enter Email Address"
+        android:text=""
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="202dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginBottom="92dp"
+        android:autoSizeTextType="uniform"
+        android:text="Sign Up"
+        android:textAlignment="center" />
+
+</RelativeLayout>

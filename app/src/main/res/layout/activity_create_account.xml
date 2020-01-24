@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+    <TextView
+        android:id="@+id/CreatePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CreatePage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:autoSizeTextType="uniform"
+        android:textAlignment="center"
+        android:text="What Kind of Account would you like to Create ?" />
+
+    <Button
+        android:id="@+id/AdminButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="133dp"
+        android:text="Admin Account" />
+
+    <Button
+        android:id="@+id/HomeOwnerButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="203dp"
+        android:text="Home Owner Account" />
+
+    <Button
+        android:id="@+id/ServiceProviderButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="273dp"
+        android:text="Service Provider Account" />
+
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDeleteServiceList">
+
+    <TextView
+        android:layout_width="356dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:autoSizeTextType="uniform"
+        android:text="Please Provide the following below to Create a new Service"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/ServiceName"
+        android:layout_width="142dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="157dp"
+        android:layout_toEndOf="@+id/LoginPage"
+        android:text="Service Name :"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"/>
+
+    <TextView
+        android:id="@+id/HourlyRate"
+        android:layout_width="127dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="224dp"
+        android:autoSizeTextType="uniform"
+        android:text="Hourly Rate :"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/ServiceNameInput"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="153dp"
+        android:hint="Enter Service Name"
+        android:text=""
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/HourlyRateInput"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="224dp"
+        android:inputType="textPassword"
+        android:hint="Enter Hourly Rate"
+        android:text=""
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/AddServiceButton"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="143dp"
+        android:text="Add Service"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

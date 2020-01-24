@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RateService">
+
+    <Button
+        android:id="@+id/RateButton"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="45dp"
+        android:autoSizeTextType="uniform"
+        android:text="Rate" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="277dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="250dp"
+        android:autoSizeTextType="uniform"
+        android:text="Add a Comment:" />
+
+    <EditText
+        android:id="@+id/CommentInput"
+        android:layout_width="373dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="302dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="Please give a brief description of your experience"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/CompanyInput"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="91dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="Enter the Compnay Name"
+        android:textAlignment="center"
+        android:inputType="textMultiLine" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="141dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="185dp"
+        android:autoSizeTextType="uniform"
+        android:text="Add a Rating:" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="317dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="19dp"
+        android:autoSizeTextType="uniform"
+        android:text="Please Enter the Name of the company you want to Rate" />
+
+    <EditText
+        android:id="@+id/RateInputR"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="180dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="(Number from 1 to 5 )"
+        android:inputType="textMultiLine"
+        android:textAlignment="center" />
+
+</RelativeLayout>
